@@ -4,7 +4,11 @@
   "description": "test ui package",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
   "author": "",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.1",
