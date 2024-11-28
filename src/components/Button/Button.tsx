@@ -7,5 +7,9 @@ type Props = {
 };
 
 export const Button: FC<Props> = ({ text }) => {
-  return <button className="">{text}</button>;
+  return (
+    <button data-testid="root-button" className="">
+      {text}
+    </button>
+  );
 };
