@@ -8,7 +8,7 @@ export const Button: FC<Props> = ({ text }) => {
   return (
     <button
       data-testid="root-button"
-      className="bg-purple-900 p-2 text-white font-bold rounded-md"
+      className="bg-orange-700 p-2 text-white font-bold rounded-md"
     >
       {text}
     </button>
