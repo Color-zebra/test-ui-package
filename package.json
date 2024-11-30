@@ -18,7 +18,8 @@
     "test": "jest --coverage",
     "test-dev": "jest --watchAll --verbose",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "tailwind": "npx tailwindcss -i ./src/index.css -o ./.storybook/output.css --watch"
   },
   "jest": {
     "preset": "ts-jest",
@@ -46,6 +47,7 @@
     "@storybook/addon-essentials": "8.4.5",
     "@storybook/addon-interactions": "8.4.5",
     "@storybook/addon-onboarding": "8.4.5",
+    "@storybook/addon-styling-webpack": "^1.0.1",
     "@storybook/addon-webpack5-compiler-swc": "1.0.5",
     "@storybook/blocks": "8.4.5",
     "@storybook/react-webpack5": "8.4.5",
@@ -64,6 +66,7 @@
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-postcss": "^4.0.2",
     "storybook": "8.4.5",
+    "tailwindcss": "^3.4.15",
     "ts-jest": "^29.2.5",
     "tslib": "^2.8.1",
     "typescript": "^5.7.2"
